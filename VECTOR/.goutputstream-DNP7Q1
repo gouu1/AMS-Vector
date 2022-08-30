@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "dbl_vector.h" 
+#include "dbl_vector.h"
 
 void dv_init( dbl_vector_t* vec ) {
     vec->capacity = DV_INITIAL_CAPACITY;
